@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 mai 2017, 08:47:36
+    Author     : jegrenier
+*/
+
+body {
+    background: url("../pictures/background.png") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-size: 1.5rem;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+input, button {
+    color: black;
+    font-weight: bold;
+}
+
+.avis {
+    background-color: rgba(3,3,3,0.5);
+    border-radius: 3%;
+    margin: 2rem;
+    padding: 2%;
+}
+
+.form-group {
+    margin: 0.5rem;
+}
+
+.myInputSize{
+    width: 110% !important;
+}
+
+.picture {
+    max-width: 18rem;
+}
+
+.search {
+    min-width: 10rem;
+}
+
+
+@media (min-width: 1250px) {
+    .avis {
+        min-width: 35rem;
+    }
+}
+
